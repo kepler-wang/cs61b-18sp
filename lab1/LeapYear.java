@@ -6,7 +6,7 @@ public class LeapYear {
      * @param year to be analyzed
      */
     private static boolean isLeapYear(int year) {
-        return (year % 400 == 0) || (year % 4 == 0 and year % 100 != 0);
+        return (year % 400 == 0) || (year % 4 == 0 && year % 100 != 0);
     }
 
     /** Calls isLeapYear to print correct statement.
